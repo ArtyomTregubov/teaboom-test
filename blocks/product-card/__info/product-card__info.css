@@ -1,0 +1,11 @@
+.product-card__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .product-card__info {
+         flex-direction: column;
+    }
+}

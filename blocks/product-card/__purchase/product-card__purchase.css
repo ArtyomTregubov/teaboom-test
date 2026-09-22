@@ -1,0 +1,14 @@
+.product-card__purchase {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 35%;
+    min-width: 360px;
+}
+
+@media (max-width: 1000px) {
+    .product-card__purchase {
+        width: 100%;
+        max-width: 360px;
+    }
+}

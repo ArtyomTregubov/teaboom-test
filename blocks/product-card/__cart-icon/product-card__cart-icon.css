@@ -1,0 +1,26 @@
+.product-card__cart-icon-wrap {
+    position: relative;
+    display: inline-flex;
+    width: 24px;
+    height: 21px;
+}
+
+.product-card__cart-icon {
+    position: absolute;
+    inset: 0;
+    width: 24px;
+    height: 21px;
+    transition: opacity 0.15s ease;
+}
+
+.product-card__cart-icon--hover {
+    opacity: 0;
+}
+
+.product-card__cart:hover .product-card__cart-icon--default {
+    opacity: 0;
+}
+
+.product-card__cart:hover .product-card__cart-icon--hover {
+    opacity: 1;
+}

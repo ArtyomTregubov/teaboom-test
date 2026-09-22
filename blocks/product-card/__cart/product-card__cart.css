@@ -1,0 +1,30 @@
+.product-card__cart {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: #e9f2c3;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    color: #2A2C2F;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.product-card__cart:hover {
+    background: #d3dbb0;
+}
+
+.product-card__cart:active {
+    transform: scale(0.99);
+}
+
+.product-card__cart--added {
+    background: #787a77;
+    color: #fff;
+}

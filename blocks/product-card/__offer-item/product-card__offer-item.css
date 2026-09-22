@@ -1,0 +1,33 @@
+.product-card__offer-item {
+    display: flex;
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.product-card__offer-item:last-child {
+    border-bottom: none;
+}
+
+.product-card__offer-item:hover {
+    background: #F7F8F2;
+}
+
+.product-card__offer-item:focus-visible {
+    outline: 2px solid #6B8F3C;
+    outline-offset: -2px;
+}
+
+.product-card__offer-item--selected {
+    background: #EEF5DA;
+}
+
+.product-card__offer-item--selected .product-card__price {
+    color: #A52A1F;
+}
+
+.product-card__offer-item--selected .product-card__weight::before {
+    content: "✓ ";
+    color: #4F6B3A;
+}
